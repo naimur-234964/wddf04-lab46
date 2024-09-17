@@ -1,0 +1,33 @@
+/* common codes start */
+:root {
+    --primary-color: #007A56;
+    --dark-color: #000000;
+    --light-color: #fff;
+
+
+}
+
+.dark-text {
+    color: var(--dark-color);
+}
+
+/* common codes end */
+
+/* navbar section start */
+#navbar {
+    .nav-btn {
+        .nav-link {
+            text-decoration: none;
+            color: var(--dark-color);
+            transition: .3s;
+
+            &:hover {
+                background: var(--primary-color);
+                color: var(--light-color);
+
+            }
+        }
+    }
+}
+
+/* navbar section end */
