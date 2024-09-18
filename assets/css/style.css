@@ -16,11 +16,20 @@
 
 /* navbar section start */
 #navbar {
+    .nav-link{
+        color: var(--primary-color);
+        margin: 0 5px;
+        transition: .3s ease-in-out;
+        &:hover{
+            background-color: var(--primary-color);
+            color: var(--light-color);
+        }
+    }
     .nav-btn {
         .nav-link {
             text-decoration: none;
             color: var(--dark-color);
-            transition: .3s;
+            transition: .5s ease-in-out;
 
             &:hover {
                 background: var(--primary-color);
