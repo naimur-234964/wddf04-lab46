@@ -88,3 +88,14 @@
 }
 
 /* best-service section end */
+
+/* testimony section start */
+#testimony {
+    background: var(--secondary-color);
+
+    i{
+        color: var(--primary-color);
+    }
+}
+
+/* testimony section end */
