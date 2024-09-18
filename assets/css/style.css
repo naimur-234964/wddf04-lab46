@@ -5,13 +5,22 @@
     --light-color: #fff;
     --dark-color: #000000;
     --primary-text-color: #212121;
-    --secondary-text-color: ##4E4E4E;
+    --secondary-text-color: #4E4E4E;
 }
 
 .dark-text {
     color: var(--dark-color);
 }
-
+.title{
+    p{
+        color: var(--secondary-text-color);
+        font-weight: 500;
+    }
+    h1{
+        color: var(--primary-text-color);
+        font-weight: 500;
+    }
+}
 /* common codes end */
 
 /* navbar section start */
