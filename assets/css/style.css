@@ -1,8 +1,10 @@
 /* common codes start */
 :root {
     --primary-color: #007A56;
-    --dark-color: #000000;
+    --secondary-color: #F8F4F0;
     --light-color: #fff;
+    --dark-color: #000000;
+    --text-color: #212121;
 
 
 }
@@ -64,6 +66,6 @@
 
 /* best-service section start */
 #best-service{
-    background: #F8F4F0;
+    background: var(--secondary-color);
 }
 /* best-service section end */
