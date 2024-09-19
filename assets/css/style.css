@@ -24,6 +24,20 @@
     }
 }
 
+.btn {
+    transition: .3s ease-in-out;
+    &:hover {
+        background: var(--primary-color);
+        color: var(--light-color);
+    }
+}
+
+.text-wrap {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
 /* common codes end */
 
 /* navbar section start */
