@@ -11,29 +11,39 @@
 .dark-text {
     color: var(--dark-color);
 }
-.title{
-    p{
+
+.title {
+    p {
         color: var(--secondary-text-color);
         font-weight: 500;
     }
-    h1{
+
+    h1 {
         color: var(--primary-text-color);
         font-weight: 500;
     }
 }
+
 /* common codes end */
 
 /* navbar section start */
 #navbar {
-    .nav-link{
+    .nav-link {
         color: var(--primary-color);
         margin: 0 5px;
         transition: .3s ease-in-out;
-        &:hover{
+
+        &:hover {
+            background-color: var(--primary-color);
+            color: var(--light-color);
+        }
+
+        &.active {
             background-color: var(--primary-color);
             color: var(--light-color);
         }
     }
+
     .nav-btn {
         .nav-link {
             text-decoration: none;
@@ -93,9 +103,10 @@
 #testimony {
     background: var(--secondary-color);
 
-    i{
+    i {
         color: var(--primary-color);
     }
 }
 
 /* testimony section end */
+
