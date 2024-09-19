@@ -135,3 +135,37 @@
 }
 
 /* newsletter section end */
+
+/* footer section start */
+#footer {
+    background-color: #0A1D32;
+
+    .footer-links {
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: var(--light-color);
+            font-weight: 200;
+            transition: .3s linear;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+
+        p {
+            color: var(--light-color);
+            font-weight: 200;
+        }
+
+        .icons {
+            a {
+                margin: 0px 10px;
+            }
+        }
+    }
+}
+
+/* footer section end */
