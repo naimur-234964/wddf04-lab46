@@ -110,3 +110,28 @@
 
 /* testimony section end */
 
+/* newsletter section start */
+#newsletter {
+    .title {
+        & p {
+            font-weight: 400;
+        }
+    }
+
+    .input-group-text {
+        background: var(--primary-color);
+
+        & a {
+            color: var(--light-color);
+            text-decoration: none;
+            transition: .3s linear;
+
+            &:hover {
+                color: var(--dark-color);
+            }
+        }
+
+    }
+}
+
+/* newsletter section end */
