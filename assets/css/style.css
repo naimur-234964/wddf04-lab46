@@ -26,6 +26,7 @@
 
 .btn {
     transition: .3s ease-in-out;
+
     &:hover {
         background: var(--primary-color);
         color: var(--light-color);
