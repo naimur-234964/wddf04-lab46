@@ -43,6 +43,8 @@
 
 /* navbar section start */
 #navbar {
+    background: rgba(237, 237, 237, .3);
+    backdrop-filter: blur(10px);
     .nav-link {
         color: var(--primary-color);
         margin: 0 5px;
